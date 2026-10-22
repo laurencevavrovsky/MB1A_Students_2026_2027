@@ -1,0 +1,72 @@
+---
+title: "Practical 1 Exercises"
+author: "Laurence Vavrovsky"
+---
+
+Exercise 1
+
+```{r}
+rounded_value <- round(3.14159)
+print(rounded_value)
+
+rounded_value <- round(3.14159, digits = 2)
+print(rounded_value)
+```
+
+Exercise 2
+
+```{r}
+#order
+print(rep(5, 7))
+#keywords
+print(rep(times = 7, x = 5))
+```
+
+Exercise 3
+
+```{r}
+x <- "hello"
+y <- 51
+z <- FALSE
+
+print(x)
+print(y)
+print(z)
+
+print(class(x))
+print(class(y))
+print(class(z))
+```
+Exercise 4
+
+```{r}
+cell_ID_1 <- "CX1"
+cell_ID_2 <- "CX2"
+cx1_treated <- TRUE
+cx2_treated <- FALSE
+cx1_num_cells_before <- 5415
+cx2_num_cells_before <- 8123
+cx1_num_cells_after <- 1432
+cx2_num_cells_after <- 7543
+```
+
+Exercise 5
+
+```{r}
+print(TRUE + TRUE)
+print(TRUE + FALSE)
+print(5 + TRUE)
+
+x <- NA
+print(x == NA)
+print(is.na(x))
+
+x <- 0 / 0
+print(x)
+print(is.na(x))
+print(is.nan(x))
+
+print(round(2.5))
+print(round(3.5))
+```
+
