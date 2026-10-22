@@ -1,0 +1,35 @@
+---
+title: "MB1A Practical 1 Data Analysis 1"
+author: "Laurence Vavrovsky"
+---
+
+### Introduction
+The Human Protein Atlas (HPA) is a research project which was initiated in 2003 with the aim of mapping all the human proteins in cells, tissues, and organs using various omics technologies.
+
+Using HPA data, I am keen to calculate the total number of genes categorised as having regionally elevated expression in the forebrain - that is, the cerebral cortex, basal ganglia, thalamus and hypothalamus - regions in human, pig and mouse.
+
+
+### Results
+
+* Human: 180, 83, 57, 110
+* Pig: 109, 157, 31, 45
+* Mouse: 55, 185, 60, 98
+
+```{r}
+human_total <- sum(180, 83, 57, 110)
+pig_total <- sum(109, 157, 31, 45)
+mouse_total <- sum(55, 185, 60, 98)
+
+print(paste("The total number for human is", human_total))
+print(paste("The total number for pig is", pig_total))
+print(paste("The total number for mouse is", mouse_total))
+```
+
+### Conclusion
+The species [human]{.mark} had the highest number of genes with regionally elevated expression in the forebrain
+
+
+```{r}
+# This code calculates the sum of two numbers
+1 + 9
+```
